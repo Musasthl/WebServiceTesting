@@ -22,5 +22,11 @@ namespace WebServiceTesting
         {
             return "Hello World";
         }
+
+        [WebMethod]
+        public string HelloWorld2()
+        {
+            return "Hello World2";
+        }
     }
 }
